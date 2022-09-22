@@ -1,0 +1,21 @@
+.darkbutton {
+  width: 150px;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.darkbutton:hover {
+  background-color: #fff;
+  color: #000;
+  opacity: 0.4;
+  border: 1px solid #000;
+}

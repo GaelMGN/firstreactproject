@@ -1,0 +1,73 @@
+.productContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #000;
+  margin: 40px;
+}
+
+.productCard1 {
+  background-image: url(/phantom1.png);
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  width: 40vw;
+  height: 80vh;
+  color: #000;
+  margin: 15px;
+}
+
+.productCard2 {
+  background-image: url(/phantom2.png);
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  width: 40vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  color: #000;
+  margin: 15px;
+}
+
+.productCard3 {
+  background-image: url(/phantom3.png);
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  width: 40vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  color: #000;
+  margin: 15px;
+}
+
+.productCard4 {
+  background-image: url(/phantom4.png);
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  width: 40vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  color: #000;
+  margin: 15px;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0px 30px 30px 30px;
+}
+
+.textThin {
+  font-size: 15px;
+}
+
+.textBold {
+  font-size: 27px;
+  font-weight: bold;
+}

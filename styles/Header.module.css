@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/background.png);
+  background-size: cover;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 20px;
+}
+
+.icon {
+  color: rgb(221, 217, 217);
+  width: 22px;
+  height: 22px;
+  transition-duration: 0.3s;
+}
+
+.icon:hover {
+  color: grey;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.iconContainer {
+  display: flex;
+  width: 10vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerBottom {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  margin: 20px 20px 40px;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.textBold {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.title {
+  letter-spacing: 15px;
+  font-size: 27px;
+  color: white;
+}
+
+.darkbutton {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.darkbutton:hover {
+  background-color: #fff;
+  color: #000;
+  opacity: 0.4;
+  border: 1px solid #000;
+}
+
+.lightbutton {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.lightbutton:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.4;
+  border: 1px solid #fff;
+}

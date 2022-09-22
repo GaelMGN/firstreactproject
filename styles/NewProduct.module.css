@@ -1,0 +1,28 @@
+.newProduct {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  margin: 40px;
+}
+
+.divColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 1000px;
+}
+
+.textThin {
+  font-size: 15px;
+}
+
+.textBold {
+  font-size: 27px;
+  font-weight: bold;
+}
